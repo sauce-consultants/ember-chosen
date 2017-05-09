@@ -216,6 +216,8 @@ export default Ember.Component.extend({
         );
       }
       
+      this._updateChosen();
+      
       return options;
     }
   }),
